@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.virtahealth.com/security
+url: https://www.virtahealth.com/security
+certifications:
+- SOC 2 Type II
+- HITRUST Risk-Based (r2)
+- ISO/IEC 27001:2013
+- HIPAA
+- NIST 800-53
+notes: >-
+  Certifications published on the public security page. Full security package
+  (details/reports) requires an NDA via an account manager; no self-serve trust
+  portal. SOC 2 Type II valid to 2026-08-31; HITRUST r2 valid to 2027-09-29.
+evidence:
+- source: https://www.virtahealth.com/security
+  keywords:
+  - soc 2
+  - iso/iec 27001
+  - hipaa

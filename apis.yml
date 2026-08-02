@@ -1,8 +1,27 @@
 aid: virta-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virta-health.png
 name: Virta Health
-description: 'Virta Health is a company surfaced as a portfolio company of creandum, obvious-ventures,
-  playground-global and added to the API Evangelist network as a stub for enrichment. Sector: health.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Virta Health is a virtual, nutrition-first healthcare company delivering
+  sustainable weight loss and type 2 diabetes reversal. Its program combines
+  personalized nutrition plans, continuous expert health coaching, physician-led
+  medication management, and connected devices, delivered through a consumer
+  mobile app and sold to employers, health plans, and healthcare providers. Virta
+  is HITRUST- and SOC 2 Type II-certified and operates as a HIPAA-covered clinical
+  service. As of this enrichment pass Virta publishes no public developer API,
+  developer portal, or machine-readable specification surface; this profile
+  captures its public identity, security posture, and compliance certifications.
 url: https://raw.githubusercontent.com/api-evangelist/virta-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health
+- Healthcare
+- Digital Health
+- Telehealth
+- Diabetes
+- Chronic Care
+- Weight Loss
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.virtahealth.com/
+- type: Blog
+  url: https://www.virtahealth.com/blog
+- type: PrivacyPolicy
+  url: https://www.virtahealth.com/privacypolicy
+- type: TermsOfService
+  url: https://www.virtahealth.com/terms
+- type: Security
+  url: https://www.virtahealth.com/security
+- type: Compliance
+  url: https://www.virtahealth.com/security
+- type: TrustCenter
+  url: security/virta-health-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/virta-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/virta-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
